@@ -31,7 +31,7 @@ cite,code,ul {
 }
 p {
 	font-size: 1.2em;
-	padding: 1.2em,1.2em,1.2em,1.2em;
+	padding: 10em 10em 10em 10em;
 }
 ul {margin-left: 1.2em;}
 li {list-style-image: url(https://cloud.githubusercontent.com/assets/13574176/9661864/b3d7886a-522a-11e5-924a-ea0d6ddddfb7.gif);}
