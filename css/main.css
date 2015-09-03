@@ -1,85 +1,154 @@
-.slide {
-    position:relative;
-    width:300px; 
-   height:200px;
-    overflow:hidden;
-    float:left;
-    margin-right:20px;
-    background-color:rgba(26,76,110,0.5)
+/*#############################################################
+Name: Bitter Sweet
+Date: 2006-10-02
+Description: Lime flavoured template with two columns.
+Author: Viktor Persson
+URL: http://templates.arcsin.se
+
+Feel free to use and modify but please provide credits.
+#############################################################*/
+
+/* standard elements */
+* {
+	margin: 0;
+	padding: 0;
 }
-.slide p,.slide h2 {
-    color:#fff;
-    padding:10px;
-    left:-20px;
-    top:20px;
-    position:relative
+a {color: #682;}
+a:hover {color: #9A6;}
+body {
+	background: #5F8000 url(img/bg.gif) repeat-y center top;
+	color: #333;
+	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
 }
-.slide p {
-    font-family:'Lato';
-    font-size:12px;
-    line-height:18px;
-    margin:0
+input {
+	color: #555;
+	font: normal 1.1em "Lucida Sans Unicode",sans-serif;
 }
-.slide h2 {
-    font-family:'Lato';
-    font-size:20px;
-    line-height:24px;
-    margin:0;
+p,cite,code,ul {
+	font-size: 1.2em;
+	padding-bottom: 1.2em;
 }
-.effect img {
-    position:absolute;
-    margin:-15px 0;
-    right:0;
-    top:0;
-    cursor:pointer;
-    -webkit-transition:top .4s ease-in-out,right .4s ease-in-out;
-    -moz-transition:top .4s ease-in-out,right .4s ease-in-out;
-    -o-transition:top .4s ease-in-out,right .4s ease-in-out;
-    transition:top .4s ease-in-out,right .4s ease-in-out
+ul {margin-left: 1.2em;}
+li {list-style-image: url(img/li.gif);}
+h1 {font-size: 1.4em;}
+blockquote {
+	background: #FFF;
+	border-bottom: 1px solid #EEE;
+	border-top: 1px solid #EEE;
+	color: #333;
+	display: block;
+	font-size: 0.9em;
+	margin-bottom: 1.2em;
+	padding: 6px 12px;
 }
-.effect img.top:hover {
-    top:-230px;
-    right:-330px;
-    padding-bottom:200px;
-    padding-left:300px
+blockquote p {padding: 3px 0;}
+h1,h2,h3 {color: #654;}
+
+/* misc */
+.clearer {clear: both;}
+
+/* structure */
+.container {
+	background: url(img/bgcontainer.gif) repeat-y;
+	margin: 0 auto;
+	width: 702px;
 }
 
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+/* top */
+.top {
+	background: #567300;
+	font: normal 2.4em Verdana,sans-serif;
+	height: 60px;
+	margin: 0 auto;
+	width: 630px;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+.top a {
+	color: #FFF;
+	display: block;
+	line-height: 60px;
+	text-decoration: none;
+	width: 100%;
 }
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+.top span {padding-left: 24px;}
+.top a:hover {
+	background: #688B00;
+	color: #FFF;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+/* header */
+.header {
+	background: url(img/header.jpg) no-repeat;
+	height: 180px;
+	margin: 0 auto;
+	width: 630px;
 }
 
-ul.posts li {
-    list-style: none;
+/* item */
+.item {clear: both;}
+.item .date {
+	background: url(img/bgdate.gif) no-repeat;
+	color: #FDD;
+	float: left;
+	height: 40px;
+	text-align: center;
+	width: 36px;
 }
+.item .date div {padding-top: 4px;}
+.item .date span {font: normal 1.6em serif;}
+.item .content {
+	float: left;
+	width: 420px;
+}
+.item h1 {
+	background: #567300;
+	color: #FFF;
+	line-height: 40px;
+	padding-left: 16px;
+}
+.item .body {padding: 12px 18px;}
+
+/* main */
+.main {float: left;}
+
+/* navigation */
+.navigation {
+	float: left;
+	margin-left: 1px;
+	width: 208px;
+}
+.navigation h1 {
+	background: #81AC00;
+	color: #FFF;
+	font-size: 1.3em;
+	line-height: 40px;
+	padding-left: 12px;
+}
+.navigation ul {margin: 0; padding: 0;}
+.navigation li {
+	border-bottom: 1px solid #D5E8AD;
+	list-style: none;
+}
+.navigation li a {
+	background: #E8F6BF url(img/bgnavigation.gif) repeat-x;	
+	color: #553;
+	display: block;
+	padding: 8px 4px 8px 12px;
+	text-decoration: none;
+}
+.navigation li a:hover {
+	background: #F0FFC6;
+	color: #553;
+}
+
+/* footer */
+.footer {
+	background: url(img/bgfooter.gif) repeat-x;
+	color: #FFF;
+	font-size: 1.1em;
+	line-height: 40px;
+	margin: 0 auto;
+	text-align: center;
+	width: 626px;
+}
+.footer a {color: #FFF;}
+.footer a:hover {color: #FAFCB0;}
