@@ -96,7 +96,8 @@ h1,h2,h3 {color: #654;}
 .item .date div {padding-top: 4px;}
 .item .date span {font: normal 1.6em serif;}
 .item .content {
-	float: left;
+	/*float: left;*/
+	float: right;
 	width: 420px;
 }
 .item h1 {
