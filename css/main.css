@@ -31,12 +31,12 @@ cite,code,ul {
 }
 p {
 	font-size: 1.2em;
-	padding: 2.4em;
+	padding: 1.8em 2.4em 2.4em 2.4em;
 }
 ul {margin-left: 1.2em;}
 li {list-style-image: url(https://cloud.githubusercontent.com/assets/13574176/9661864/b3d7886a-522a-11e5-924a-ea0d6ddddfb7.gif);}
 h1 {font-size: 1.4em;}
-h2 {padding:0.2em 0em 0em 1.2em;}
+h2 {padding:1em 0em 0em 1.2em;}
 blockquote {
 	background: #FFF;
 	border-bottom: 1px solid #EEE;
