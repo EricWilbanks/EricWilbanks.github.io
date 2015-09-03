@@ -109,7 +109,10 @@ h1,h2,h3 {color: #654;}
 .item .body {padding: 12px 18px;}
 
 /* main */
-.main {float: left;}
+.main {
+	float: left;
+	margin-left: 36px;
+}
 
 /* navigation */
 .navigation {
