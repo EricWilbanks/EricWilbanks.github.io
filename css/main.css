@@ -96,8 +96,7 @@ h1,h2,h3 {color: #654;}
 .item .date div {padding-top: 4px;}
 .item .date span {font: normal 1.6em serif;}
 .item .content {
-	/*float: left;*/
-	float: right;
+	float: left;
 	width: 420px;
 }
 .item h1 {
@@ -110,8 +109,7 @@ h1,h2,h3 {color: #654;}
 .item .body {padding: 12px 18px;}
 
 /* main */
-/*.main {float: left;}*/
-.main {float: right;}
+.main {float: left;}
 
 /* navigation */
 .navigation {
