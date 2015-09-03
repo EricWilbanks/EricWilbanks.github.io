@@ -16,7 +16,7 @@ Feel free to use and modify but please provide credits.
 a {color: #682;}
 a:hover {color: #9A6;}
 body {
-	background: #5F8000 url(img/bg.gif) repeat-y center top;
+	background: #5F8000 url(https://cloud.githubusercontent.com/assets/13574176/9661862/b3d0a0ae-522a-11e5-945f-c493f3237a1c.gif) repeat-y center top;
 	color: #333;
 	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
 }
@@ -29,7 +29,7 @@ p,cite,code,ul {
 	padding-bottom: 1.2em;
 }
 ul {margin-left: 1.2em;}
-li {list-style-image: url(img/li.gif);}
+li {list-style-image: url(https://cloud.githubusercontent.com/assets/13574176/9661864/b3d7886a-522a-11e5-924a-ea0d6ddddfb7.gif);}
 h1 {font-size: 1.4em;}
 blockquote {
 	background: #FFF;
@@ -49,7 +49,7 @@ h1,h2,h3 {color: #654;}
 
 /* structure */
 .container {
-	background: url(img/bgcontainer.gif) repeat-y;
+	background: url(https://cloud.githubusercontent.com/assets/13574176/9661867/b3db108e-522a-11e5-8793-cfe3322bf893.gif) repeat-y;
 	margin: 0 auto;
 	width: 702px;
 }
@@ -77,7 +77,7 @@ h1,h2,h3 {color: #654;}
 
 /* header */
 .header {
-	background: url(img/header.jpg) no-repeat;
+	background: url(https://cloud.githubusercontent.com/assets/13574176/9661863/b3d784a0-522a-11e5-9eb2-56858818ad9c.jpg) no-repeat;
 	height: 180px;
 	margin: 0 auto;
 	width: 630px;
@@ -86,7 +86,7 @@ h1,h2,h3 {color: #654;}
 /* item */
 .item {clear: both;}
 .item .date {
-	background: url(img/bgdate.gif) no-repeat;
+	background: url(https://cloud.githubusercontent.com/assets/13574176/9661866/b3da5afe-522a-11e5-84ab-9eecddbc9c15.gif) no-repeat;
 	color: #FDD;
 	float: left;
 	height: 40px;
@@ -129,7 +129,7 @@ h1,h2,h3 {color: #654;}
 	list-style: none;
 }
 .navigation li a {
-	background: #E8F6BF url(img/bgnavigation.gif) repeat-x;	
+	background: #E8F6BF url(https://cloud.githubusercontent.com/assets/13574176/9661865/b3d80556-522a-11e5-856d-03242cb0c1a8.gif) repeat-x;	
 	color: #553;
 	display: block;
 	padding: 8px 4px 8px 12px;
@@ -142,7 +142,7 @@ h1,h2,h3 {color: #654;}
 
 /* footer */
 .footer {
-	background: url(img/bgfooter.gif) repeat-x;
+	background: url(https://cloud.githubusercontent.com/assets/13574176/9661868/b3dbd91a-522a-11e5-90ef-a4c29bb7065a.gif) repeat-x;
 	color: #FFF;
 	font-size: 1.1em;
 	line-height: 40px;
