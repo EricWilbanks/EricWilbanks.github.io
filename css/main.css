@@ -15,6 +15,7 @@ Feel free to use and modify but please provide credits.
 }
 a {color: #682;}
 a:hover {color: #9A6;}
+
 body {
 	background: #5F8000 url(https://cloud.githubusercontent.com/assets/13574176/9661862/b3d0a0ae-522a-11e5-945f-c493f3237a1c.gif) repeat-y center top;
 	color: #333;
@@ -143,6 +144,11 @@ h1,h2,h3 {color: #654;}
 	background: #F0FFC6;
 	color: #553;
 }
+
+.nav2 a {color: #682;}
+
+.nav2 a:hover {color: #9A6;}
+
 
 /* footer */
 .footer {
