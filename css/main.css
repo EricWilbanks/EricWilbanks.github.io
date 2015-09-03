@@ -121,8 +121,9 @@ h1,h2,h3 {color: #654;}
 
 /* navigation */
 .navigation {
-	float: left;
+	float: right;
 	margin-left: 1px;
+	padding: 0px 37px 0px 0px;
 	width: 208px;
 }
 .navigation h1 {
