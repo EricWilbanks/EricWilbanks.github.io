@@ -145,9 +145,14 @@ h1,h2,h3 {color: #654;}
 	color: #553;
 }
 
-.nav2 a {color: #F00;}
+.nav2 a {
+	color: #FFF;
+	text-decoration: none;
+}
 
-.nav2 a:hover {color: #099;}
+.nav2 a:hover {
+	background: #a6c44c;
+	color: #4ca6c4;}
 
 
 /* footer */
