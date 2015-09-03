@@ -145,6 +145,12 @@ h1,h2,h3 {color: #654;}
 	color: #553;
 }
 
+.nav2 {
+	float: left;
+	margin-left: 1px;
+	width: 208px;
+}
+
 .nav2 a {
 	color: #FFF;
 	text-decoration: none;
