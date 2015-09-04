@@ -137,6 +137,7 @@ h1,h2,h3 {color: #856f58;}
 /* navigation */
 .navigation {
 	float: right;
+	width: 209px;
 }
 .navigation h1 {
 	background: #81AC00;
