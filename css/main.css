@@ -125,13 +125,13 @@ h1,h2,h3 {color: #856f58;}
 	float: right;
 	width: 208px;
 	margin-left: 1px;
+	padding: 0px 37px 0px 0px;
 }
 
 /* navigation */
 .navigation {
 	/*float: left;*/
 	float: right;
-	/* margin-left: 1px; */
 	width: 208px;
 }
 .navigation h1 {
@@ -158,23 +158,20 @@ h1,h2,h3 {color: #856f58;}
 	color: #553;
 }
 
+/* nav2 */
+
 .nav2 {
 	float: right;
 	margin-left: 1px;
-	padding: 0px 37px 0px 0px;
 	width: 208px;
 }
-
 .nav2 a {
 	color: #FFF;
 	text-decoration: none;
 	display: block;
 	padding-left: 12px;
 }
-
-.nav2 a:hover {
-	background: #a6c44c;}
-	
+.nav2 a:hover {background: #a6c44c;}
 .nav2 h1 {
 	background: #81AC00;
 	color: #FFF;
