@@ -96,7 +96,7 @@ h1,h2,h3 {color: #856f58;}
 }
 
 /* item */
-.item {clear: both;}
+/* .item {clear: both;} */
 .item .date {
 	background: url(https://cloud.githubusercontent.com/assets/13574176/9661866/b3da5afe-522a-11e5-84ab-9eecddbc9c15.gif) no-repeat;
 	color: #FDD;
