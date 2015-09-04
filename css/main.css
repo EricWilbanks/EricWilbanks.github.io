@@ -89,6 +89,12 @@ h1,h2,h3 {color: #856f58;}
 	width: 630px;
 }
 
+.header2 {
+	margin: 0 auto;
+	height: 30px;
+	width: 630px;
+}
+
 /* item */
 .item {clear: both;}
 .item .date {
@@ -147,7 +153,7 @@ h1,h2,h3 {color: #856f58;}
 	list-style: none;
 }
 .navigation li a {
-	background: #E8F6BF url(https://cloud.githubusercontent.com/assets/13574176/9661865/b3d80556-522a-11e5-856d-03242cb0c1a8.gif) repeat-x;	
+	background: #cE8F6BF url(https://cloud.githubusercontent.com/assets/13574176/9661865/b3d80556-522a-11e5-856d-03242cb0c1a8.gif) repeat-x;	
 	color: #553;
 	display: block;
 	padding: 8px 4px 8px 12px;
