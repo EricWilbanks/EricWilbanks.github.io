@@ -145,6 +145,8 @@ h1,h2,h3 {color: #856f58;}
 	font-size: 1.3em;
 	line-height: 40px;
 	padding-left: 12px;
+	box-sizing: border-box;
+	border: 2px solid white;
 }
 .navigation ul {margin: 0; padding: 0;}
 .navigation li {
