@@ -147,6 +147,7 @@ h1,h2,h3 {color: #856f58;}
 	padding-left: 12px;
 	box-sizing: border-box;
 	border-bottom: 1px solid white;
+	border-top: 1px solid white;
 }
 .navigation ul {margin: 0; padding: 0;}
 .navigation li {
@@ -172,6 +173,7 @@ h1,h2,h3 {color: #856f58;}
 	width: 209px;
 	box-sizing: border-box;
 	border-bottom: 1px solid white;
+	border-top: 1px solid white;
 }
 .nav2 a {
 	color: #FFF;
