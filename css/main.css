@@ -129,16 +129,14 @@ h1,h2,h3 {color: #856f58;}
 /* sidenav */
 .sidenav {
 	float: right;
-	width: 208px;
-	margin-left: 1px;
+	width: 209px;
+	/* margin-left: 1px; */
 	padding: 0px 37px 0px 0px;
 }
 
 /* navigation */
 .navigation {
-	/*float: left;*/
 	float: right;
-	width: 208px;
 }
 .navigation h1 {
 	background: #81AC00;
