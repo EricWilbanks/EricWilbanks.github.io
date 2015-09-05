@@ -37,6 +37,7 @@ ul {margin-left: 1.2em;}
 li {list-style-image: url(https://cloud.githubusercontent.com/assets/13574176/9661864/b3d7886a-522a-11e5-924a-ea0d6ddddfb7.gif);}
 h1 {font-size: 1.4em;}
 h2 {padding:1em 0em 0em 1.2em;}
+h3 {padding:1em 0em 0em 1.2em;}
 blockquote {
 	background: #FFF;
 	border-bottom: 1px solid #EEE;
@@ -48,7 +49,8 @@ blockquote {
 	padding: 6px 12px;
 }
 blockquote p {padding: 3px 0;}
-h1,h2,h3 {color: #856f58;}
+h1,h2 {color: #856f58;}
+h3 {color:#9A6;}
 
 /* misc */
 .clearer {clear: both;}
