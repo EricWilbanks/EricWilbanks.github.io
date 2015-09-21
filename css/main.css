@@ -141,6 +141,13 @@ h3 {color:#9A6;}
 	float: right;
 	width: 209px;
 }
+
+.navigation a {
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	padding-left: 12px;	
+}
 .navigation h1 {
 	background: #81AC00;
 	color: #FFF;
