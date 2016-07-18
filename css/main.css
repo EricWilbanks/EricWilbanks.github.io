@@ -19,11 +19,11 @@ a:hover {color: #9A6;}
 body {
 	background: #5F8000 url(https://cloud.githubusercontent.com/assets/13574176/9661862/b3d0a0ae-522a-11e5-945f-c493f3237a1c.gif) repeat-y center top;
 	color: #333;
-	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
+	font: normal 62.5% "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 input {
 	color: #555;
-	font: normal 1.1em "Lucida Sans Unicode",sans-serif;
+	font: normal 1.1em "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 cite,code,ul {
 	font-size: 1.2em;
@@ -65,7 +65,7 @@ h3 {color:#9A6;}
 /* top */
 .top {
 	background: #567300;
-	font: normal 2.4em Verdana,sans-serif;
+	font: normal 2.4em "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	height: 60px;
 	margin: 0 auto;
 	width: 630px;
@@ -108,7 +108,7 @@ h3 {color:#9A6;}
 	width: 36px;
 }
 .item .date div {padding-top: 4px;}
-.item .date span {font: normal 1.6em serif;}
+.item .date span {font: normal 1.6em "Palatino Linotype", "Book Antiqua", Palatino, serif;}
 .item .content {
 	float: left;
 	width: 420px;
