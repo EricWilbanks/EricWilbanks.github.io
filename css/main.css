@@ -207,3 +207,10 @@ h3 {color:#9A6;}
 }
 .footer a {color: #FFF;}
 .footer a:hover {color: #FAFCB0;}
+
+/* images */
+.img {
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+}
