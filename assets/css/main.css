@@ -2385,9 +2385,8 @@ input, select, textarea {
 			}
 
 		.image.medium {
-			display: block;
-			margin: 0 0 2em 0;
-			width: 50%;
+\			margin: 0 0 1em 0;
+			max-width: 60%;
 		}
 
 			.image.medium img {
